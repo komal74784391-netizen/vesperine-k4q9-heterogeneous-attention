@@ -2,14 +2,18 @@
 
 International Conference on Learning Representations, 2026 (accepted).
 
-## Repository Status: To be released
+This branch contains the reference implementation for the paper.
 
-The reference implementation is being prepared for public release.
+## What is included
 
-Coming soon:
+- `src/hetero/` -- heterogeneous attention heads, the token-to-head routing
+  policy, and the training loop used in the reported experiments
+- `configs/prototype.yaml` -- configuration for the reported runs
 
-- [ ] training scripts
-- [ ] evaluation pipeline
-- [ ] pretrained checkpoints
+## Quick start
 
-Watch this repository for the release announcement.
+```bash
+python -m src.hetero.train --epochs 2
+```
+
+If you use this code, please cite the paper listed above.

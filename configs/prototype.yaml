@@ -1,0 +1,4 @@
+hidden_dim: 768
+heads: 12
+top_heads: 4
+epochs: 2
